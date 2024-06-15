@@ -14,6 +14,7 @@
 		21770C862C1DBD1C00CCC363 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21770C852C1DBD1C00CCC363 /* ARViewContainer.swift */; };
 		21770C882C1DC87A00CCC363 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21770C872C1DC87A00CCC363 /* SkeletonJoint.swift */; };
 		21770C8A2C1DC8D800CCC363 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21770C892C1DC8D800CCC363 /* SkeletonBone.swift */; };
+		21770C8C2C1DCB0600CCC363 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21770C8B2C1DCB0600CCC363 /* Bones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		21770C852C1DBD1C00CCC363 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		21770C872C1DC87A00CCC363 /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
 		21770C892C1DC8D800CCC363 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
+		21770C8B2C1DCB0600CCC363 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				21770C872C1DC87A00CCC363 /* SkeletonJoint.swift */,
 				21770C892C1DC8D800CCC363 /* SkeletonBone.swift */,
 				21770C852C1DBD1C00CCC363 /* ARViewContainer.swift */,
+				21770C8B2C1DCB0600CCC363 /* Bones.swift */,
 				216D31692C1D8A5E0063D786 /* Assets.xcassets */,
 				216D316B2C1D8A5E0063D786 /* Preview Content */,
 			);
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				216D31682C1D8A5B0063D786 /* ContentView.swift in Sources */,
+				21770C8C2C1DCB0600CCC363 /* Bones.swift in Sources */,
 				21770C8A2C1DC8D800CCC363 /* SkeletonBone.swift in Sources */,
 				216D31662C1D8A5B0063D786 /* BodyTrackerApp.swift in Sources */,
 				21770C862C1DBD1C00CCC363 /* ARViewContainer.swift in Sources */,
