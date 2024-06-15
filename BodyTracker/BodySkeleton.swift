@@ -120,7 +120,7 @@ class BodySkeleton: Entity {
     private func createBoneEntity(for skeletonBone: SkeletonBone, diameter: Float = 0.04, color: UIColor = .white) ->
     Entity {
         let mesh = MeshResource.generateBox(size: [diameter, diameter, skeletonBone.length], cornerRadius: diameter/2)
-        let material = SimpleMaterial(color: color, roughness: 0.5, isMetallic: true)
+        let material = SimpleMaterial(color: color, roughness: 0.5, isMetallic: false)
         let entity = ModelEntity(mesh: mesh, materials: [material])
         
         return entity
