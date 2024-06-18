@@ -11,7 +11,15 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ARViewContainer()
-                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                .edgesIgnoringSafeArea(.all)
+                .onAppear {
+                    // Automatic screen lock disbled
+                    UIApplication.shared.isIdleTimerDisabled = true
+                }
+                .onDisappear {
+                    // Automatic screen lock enabled on App leave
+                    UIApplication.shared.isIdleTimerDisabled = false
+                }
         }
     }
 }
